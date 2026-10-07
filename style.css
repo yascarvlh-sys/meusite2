@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f7e4eb;
+    color: #3f2934;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #6d2143;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0 0 25px 0;
+    font-size: 32px;
+}
+
+/* Botões */
+nav a {
+    display: inline-block;
+    background-color: #b94f76;
+    color: white;
+    text-decoration: none;
+    padding: 11px 22px;
+    margin: 5px;
+    border-radius: 25px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    background-color: #d98ba5;
+    color: #6d2143;
+    transform: translateY(-2px);
+}
+
+/* Área principal */
+main {
+    background-color: #fffaf7;
+    width: 70%;
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 40px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    border: 2px solid #e7b7c7;
+}
+
+/* Foto */
+main img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 30px;
+    border: 6px solid #b94f76;
+}
+
+/* Títulos */
+h2 {
+    color: #6d2143;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Textos */
+p {
+    font-size: 17px;
+    line-height: 1.8;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+/* Florzinhas decorativas */
+body::before {
+    content: "🌸";
+    position: fixed;
+    top: 120px;
+    left: 25px;
+    font-size: 45px;
+}
+
+body::after {
+    content: "🌸";
+    position: fixed;
+    bottom: 30px;
+    right: 25px;
+    font-size: 45px;
+}
